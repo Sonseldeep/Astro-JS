@@ -1,7 +1,25 @@
-# Astro Starter Kit: Basics
+# Clone this project
 
 ```sh
-npm create astro@latest -- --template basics
+git clone https://github.com/Sonseldeep/Astro-JS
+
+
+```
+
+# Change the directory
+
+```sh
+ cd Astro-JS
+
+```
+
+# To run this project
+
+```sh
+ chmod +x run.sh
+ ./run.sh
+
+
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
