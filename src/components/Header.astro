@@ -1,15 +1,38 @@
-<header class="bg-blue-500 text-white fixed top-0 left-0 right-0 z-50 shadow-md">
-    <nav aria-label="Main navigation" class="max-w-5xl mx-auto px-4">
-      <ul class="flex text-2xl justify-between items-center py-4">
-        <li>
-          <a href="/" class="hover:text-black transition-colors duration-200 font-semibold focus:outline-none focus:ring-2 focus:ring-white rounded">Home</a>
-        </li>
-        <li>
-          <a href="/" class="hover:text-black transition-colors duration-200 font-semibold focus:outline-none focus:ring-2 focus:ring-white rounded">About Us</a>
-        </li>
-        <li>
-          <a href="/" class="hover:text-black transition-colors duration-200 font-semibold focus:outline-none focus:ring-2 focus:ring-white rounded">Contact</a>
-        </li>
-      </ul>
+<header class="bg-blue-600 text-white fixed top-0 left-0 right-0 z-50 shadow-lg transition-all duration-300">
+    <nav aria-label="Main navigation" class="max-w-7xl mx-auto px-6">
+      <div class="flex justify-between items-center py-4">
+        <!-- Logo -->
+        <a href="/" class="text-3xl font-bold tracking-wide hover:text-gray-200 transition-colors">MyBrand</a>
+  
+        <!-- Navigation Links -->
+        <ul class="hidden md:flex space-x-8 text-lg font-medium items-center">
+          <li>
+            <a href="/" class="relative group focus:outline-none focus:ring-2 focus:ring-white rounded">
+              <span class="transition-colors duration-200 group-hover:text-gray-200">Home</span>
+              <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </a>
+          </li>
+          <li>
+            <a href="/about" class="relative group focus:outline-none focus:ring-2 focus:ring-white rounded">
+              <span class="transition-colors duration-200 group-hover:text-gray-200">About Us</span>
+              <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </a>
+          </li>
+          <li>
+            <a href="/contact" class="relative group focus:outline-none focus:ring-2 focus:ring-white rounded">
+              <span class="transition-colors duration-200 group-hover:text-gray-200">Contact</span>
+              <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </a>
+          </li>
+        </ul>
+  
+        <!-- Mobile Menu (optional placeholder) -->
+        <button class="md:hidden focus:outline-none focus:ring-2 focus:ring-white rounded p-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
     </nav>
   </header>
+  
